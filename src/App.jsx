@@ -17,10 +17,11 @@ function App() {
   const [results, setResults] = useState([]);
   const [hasQueried, setHasQueried] = useState(false);
   const [tokenDataObjects, setTokenDataObjects] = useState([]);
+  //0xE084C2D6258bf4F6276849a4c2D4582A16135b99
 
   async function getTokenBalance() {
     const config = {
-      apiKey: '<-- COPY-PASTE YOUR ALCHEMY API KEY HERE -->',
+      apiKey: '3Xvh92nTS77uwrZ6Jle23gRZZrJtMtqf',
       network: Network.ETH_MAINNET,
     };
 
